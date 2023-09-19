@@ -3,6 +3,8 @@
 
 In this project, we delve into the realm of linear regression and regularization techniques using Lasso and Ridge Regression in Python. Linear regression serves as the foundation, offering a straightforward model to predict outcomes based on input features. However, as we venture deeper, we encounter the common pitfalls of overfitting and underfitting. To combat these challenges, we introduce regularization methods, shedding light on their significance.
 
+The dataset used in this project is the Boston housing dataset from Sklearn, containing information about housing attributes in Boston suburbs. It includes features such as crime rate, room count, and accessibility to employment centers, with the target variable being the median value of owner-occupied homes.
+
 Our journey begins with an exploration of Lasso Regression, short for Least Absolute Shrinkage and Selection Operator. We illustrate how Lasso Regression employs a penalty factor (alpha) to shrink coefficients, effectively reducing model complexity and addressing multicollinearity. Notably, Lasso Regression's unique geometric constraints allow it to perform automatic feature selection by shrinking coefficients towards zero, rendering less important features inconsequential.
 
 We don't stop there. We also introduce Ridge Regression, which shares a similar objective but takes a different route by considering the square of coefficients (L2 Regularization). Practical implementation is a core component of our project, where we employ Python to load and preprocess the Boston housing dataset. We analyze multicollinearity, prepare the data, and proceed to build, compare, and evaluate Linear, Ridge, and Lasso Regression models.
